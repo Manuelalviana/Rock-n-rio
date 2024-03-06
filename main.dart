@@ -109,7 +109,7 @@ const AtracaoPage({Key? key, required this.atracao}) : super(key:key);
             },
             
             child: const Text('Voltar',
-            style: TextStyle(color: Color.fromARGB(255, 255, 255, 255))),
+            style: TextStyle(color: Color.fromARGB(255, 255, 255, 255))), style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.indigo))
             )
             
 
